@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title><shipName /></title>
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/favicon-144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+
+		<meta charset="utf-8">
+		<script>
+			var	sessionKey = "<sessionKey />";
+			var updateTimerId;
+
+			function Initialization() {
+				// Initial update
+				GetFullLog();
+				UpdateLog();
+				// Periodic update
+				//updateTimerId = setInterval(UpdateLog, 7000);
+			}
+
+			function GetFullLog() {
+				var xhr = new XMLHttpRequest();
+				xhr.overrideMimeType("text/plain; charset=utf-8");
+				xhr.open('POST', 'pilotLog', true);
+				xhr.timeout = 6950;
+				xhr.onload = function() {
+					document.getElementById('shipLog').innerHTML = xhr.responseText;
+					if (xhr.responseText == "<p>Authorization error.</p>") {
+						clearTimeout(updateTimerId);
+					}
+				}
+				xhr.ontimeout = function(e) {
+					document.getElementById('shipLog').innerHTML = "<p>Server timed out.</p>";
+					clearTimeout(updateTimerId);
+				}
+				var messageBody = 'sessionKey=' + encodeURIComponent(sessionKey);
+				xhr.send(messageBody);
+			}
+			
+			function UpdateLog() {
+				var xhr = new XMLHttpRequest();
+				xhr.overrideMimeType("text/plain; charset=utf-8");
+				xhr.open('POST', 'update', true);
+				xhr.onload = function() {
+					document.getElementById('shipLog').innerHTML = xhr.responseText;
+					if (xhr.responseText != "<p>Authorization error.</p>") {
+						UpdateLog();
+					}
+				}
+				xhr.onerror = function() {
+					document.getElementById('shipLog').innerHTML = "<p>Server connection closed.</p>";
+				}
+				var messageBody = 'sessionKey=' + encodeURIComponent(sessionKey);
+				xhr.send(messageBody);
+			}
+		</script>
+	</head>
+	<body onload="Initialization();">
+		<div id="shipLog">
+		</div>
+	</body>
+</html>

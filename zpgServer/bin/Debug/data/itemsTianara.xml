@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<common>
+		<item>коммонку</item>
+		<item>пищалку</item>
+		<item>пиу-пушку</item>
+		<item>какие-то долгоноги</item>
+		<item>ноголапти</item>
+	</common>
+
+	<rare>
+		<item>рарку</item>
+		<item>кинжалера</item>
+	</rare>
+
+	<epic>
+		<item>эпик</item>
+		<item>горного гиганта</item>
+	</epic>
+
+	<legendary>
+		<item>легендарку</item>
+		<item>доктора Бума</item>
+	</legendary>
+</root>

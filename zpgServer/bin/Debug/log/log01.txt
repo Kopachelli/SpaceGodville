@@ -1,0 +1,412 @@
+[23:11:27 | MAIN] Thread started
+[23:11:27 | MAIN] Loading strings
+[23:11:27 | MAIN] Loading looters
+[23:11:27 | MAIN] Successfully parsed 11 item(s) in itemsTianara.xml
+[23:11:27 | MAIN] No valid items found in itemsSvillaya.xml
+[23:11:27 | MAIN] Loading destiny
+[23:11:27 | MAIN] Successfully created 39 native event(s)
+[23:11:27 | MAIN] Successfully parsed 3 event(s) in eventsTianara.xml
+[23:11:27 | MAIN] No valid events found in eventsSvillaya.xml
+[23:11:27 | MAIN] Loading planets
+[23:11:27 | MAIN] Loading accounts
+[23:11:27 | MAIN] Successfully loaded 2 account(s).
+[23:11:27 | MAIN] Rolling the dice
+[23:11:27 | MAIN] Creating the universe
+[23:11:27 | MAIN] Generating RSA keys
+[23:11:27 | MAIN] Collecting command line data
+[23:11:27 | MAIN] Initializing web thread
+[23:11:28 | MAIN] Initializing world thread
+[23:11:28 | MAIN] Initializing disk thread
+[23:11:28 | MAIN] Initializing update thread
+[23:11:28 | MAIN] Initializing GUI thread
+[23:11:28 | MAIN] Switching to graphical console
+[23:11:28 | WEB] Listening...
+[23:11:32 | GUI] > destiny
+Unknown command
+[23:11:34 | GUI] > #destiny
+System.Collections.Generic.List`1[zpgServer.Event] library = System.Collections.Generic.List`1[zpgServer.Event]
+
+[23:11:37 | GUI] > #destiny.library
+System.String messageLink = autogen_0000
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0001
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0002
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0003
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0004
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0005
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0006
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0007
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0008
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0009
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0010
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0011
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0012
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0013
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0014
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0015
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0016
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0017
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0018
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0019
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0020
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0021
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0022
+System.Int32 chance = 10
+System.Int32 eventGroup = 2
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0023
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0024
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0025
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0026
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0027
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0028
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0029
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0030
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0031
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0032
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0033
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0034
+System.Int32 chance = 10
+System.Int32 eventGroup = 4
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0035
+System.Int32 chance = 10
+System.Int32 eventGroup = 0
+zpgServer.EventSpecial specialGroup = OnLevelUp
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = newPilot
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0036
+System.Int32 chance = 10
+System.Int32 eventGroup = 0
+zpgServer.EventSpecial specialGroup = OnTravelStart
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String messageLink = autogen_0037
+System.Int32 chance = 10
+System.Int32 eventGroup = 0
+zpgServer.EventSpecial specialGroup = OnPlanetArrival
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+System.String text = Это тестовое событие из файлика! Очень хотелось бы, чтобы оно работало как надо.
+System.String originFile = data/eventsTianara.xml
+System.String rawEventGroup = GenericPlanet | Station
+System.String rawEventSpecial = 
+System.String rawStoryAdvance = 
+System.String rawRewardMoney = 
+System.String rawRewardLoot = 
+System.String rawFilterPilotGender = 
+System.String rawFilterPilotMoney = 
+System.String rawFilterStoryStage = 
+System.String messageLink = autogen_0038
+System.Int32 chance = 10
+System.Int32 eventGroup = 8
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+
+System.String text = Вот и прибы{g:-л|-ла} я на {planetName}!
+System.String originFile = data/eventsTianara.xml
+System.String rawEventGroup = 
+System.String rawEventSpecial = OnPlanetArrival
+System.String rawStoryAdvance = 
+System.String rawRewardMoney = 
+System.String rawRewardLoot = 
+System.String rawFilterPilotGender = 
+System.String rawFilterPilotMoney = 
+System.String rawFilterStoryStage = 
+System.String messageLink = autogen_0039
+System.Int32 chance = 10
+System.Int32 eventGroup = 0
+zpgServer.EventSpecial specialGroup = OnPlanetArrival
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+
+System.String text = Вот и прибы{g:-л|-ла} я на {planetName}!
+System.String originFile = data/eventsTianara.xml
+System.String rawEventGroup = 
+System.String rawEventSpecial = OnPlanetArrival
+System.String rawStoryAdvance = 
+System.String rawRewardMoney = 
+System.String rawRewardLoot = 
+System.String rawFilterPilotGender = 
+System.String rawFilterPilotMoney = 
+System.String rawFilterStoryStage = 
+System.String messageLink = autogen_0040
+System.Int32 chance = 10
+System.Int32 eventGroup = 0
+zpgServer.EventSpecial specialGroup = OnPlanetArrival
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+
+
+[23:11:42 | GUI] > #destiny.library[0]
+System.String messageLink = autogen_0000
+System.Int32 chance = 10
+System.Int32 eventGroup = 1
+zpgServer.EventSpecial specialGroup = None
+zpgServer.Reward reward = zpgServer.Reward
+zpgServer.EventFilters filters = zpgServer.EventFilters
+System.Int32 defaultChance = 10
+
+[23:11:46 | GUI] > exit
+
+[23:11:46 | GUI] Graphical console closed
+[23:11:46 | MAIN] Initializing shutdown sequence
+[23:11:46 | MAIN] Shutting down update thread
+[23:11:47 | MAIN] Shutting down disk thread
+[23:11:48 | MAIN] Shutting down world thread
+[23:11:48 | MAIN] Shutting down web thread
+[23:11:49 | MAIN] Shutting down main thread
+[23:11:49 | MAIN] Goodbye

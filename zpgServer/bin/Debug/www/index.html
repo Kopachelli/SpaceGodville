@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Space Godville</title>
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/favicon-144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<script src="scripts/core.js"></script>
+
+		<meta charset="utf-8">
+		<script>
+			function CheckProtocol() {
+				if (location.protocol != 'https:') {
+					location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+				}
+			}
+		</script>
+	</head>
+	<body onload="CheckProtocol();">
+		<form action="login" method="post">
+			<p>Вход</p>
+			<input type="text" name="username" placeholder="Имя пользователя">
+			<input type="password" name="password" placeholder="Пароль">
+			<input type="submit" value="Войти">
+		</form>
+		<hr>
+		<form action="register" method="post">
+			<p>Новый аккаунт</p>
+			<input type="text" name="username" placeholder="Имя пользователя">
+			<input type="password" name="password" placeholder="Пароль">
+			<input type="password" name="passwordRepeat" placeholder="Повторить пароль">
+			<input type="text" name="shipName" placeholder="Имя корабля">
+			<input type="submit" value="Зарегистрироваться">
+		</form>
+	</body>
+</html>

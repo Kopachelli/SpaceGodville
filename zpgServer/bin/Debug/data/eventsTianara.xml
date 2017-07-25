@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<event>
+		<text>Это тестовое событие из файлика! Очень хотелось бы, чтобы оно работало как надо.</text>
+		<eventGroup>GenericPlanet | Station</eventGroup>
+		<chance>10</chance>
+	</event>
+	<event>
+		<text>Вот и прибы{g:-л|-ла} я на {planetName}!</text>
+		<eventSpecial>OnPlanetArrival</eventSpecial>
+	</event>
+	<event>
+		<text>Вот и прибы{g:-л|-ла} я на {planetName}!</text>
+		<eventSpecial>OnPlanetArrival</eventSpecial>
+	</event>
+</root>

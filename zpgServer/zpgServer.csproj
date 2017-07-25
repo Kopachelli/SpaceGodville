@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B23634B8-C7DF-4299-AD40-0A82103A96B4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zpgServer</RootNamespace>
+    <AssemblyName>zpgServer</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Universe\ItemBuilder.cs" />
+    <Compile Include="Utility\CmdParser.cs" />
+    <Compile Include="GUI\GUICore.cs" />
+    <Compile Include="GUI\ConsoleWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ConsoleWindow.Designer.cs">
+      <DependentUpon>ConsoleWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Looter.cs" />
+    <Compile Include="Database\Terraformer.cs" />
+    <Compile Include="Database\Settings.cs" />
+    <Compile Include="Disk data\DiskCore.cs" />
+    <Compile Include="Disk data\LogManager.cs" />
+    <Compile Include="Universe\EventBuilder.cs" />
+    <Compile Include="Utility\PlayerResponsePair.cs" />
+    <Compile Include="Utility\InputCore.cs" />
+    <Compile Include="Utility\PasswordHashing.cs" />
+    <Compile Include="Universe\LootItem.cs" />
+    <Compile Include="Universe\Reward.cs" />
+    <Compile Include="Utility\Vector2.cs" />
+    <Compile Include="Web\WebUpdaterCore.cs" />
+    <Compile Include="Web\WebRequest.cs" />
+    <Compile Include="Web\WebSecurity.cs" />
+    <Compile Include="Web\WebReader.cs" />
+    <Compile Include="Database\Authorization.cs" />
+    <Compile Include="Utility\ConsoleExtender.cs" />
+    <Compile Include="Database\Localization.cs" />
+    <Compile Include="Database\Destiny.cs" />
+    <Compile Include="Universe\Story.cs" />
+    <Compile Include="Universe\EventGroup.cs" />
+    <Compile Include="Utility\Interval.cs" />
+    <Compile Include="Universe\EventFilters.cs" />
+    <Compile Include="Utility\Random.cs" />
+    <Compile Include="Universe\Event.cs" />
+    <Compile Include="Universe\Time.cs" />
+    <Compile Include="Utility\Timer.cs" />
+    <Compile Include="Universe\Pilot.cs" />
+    <Compile Include="Universe\ShipLog.cs" />
+    <Compile Include="Universe\ShipLogMessage.cs" />
+    <Compile Include="Universe\Planet.cs" />
+    <Compile Include="Web\WebWriter.cs" />
+    <Compile Include="Web\WebConstructor.cs" />
+    <Compile Include="Core\Player.cs" />
+    <Compile Include="Core\Core.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Universe\Ship.cs" />
+    <Compile Include="Universe\Universe.cs" />
+    <Compile Include="Web\WebCore.cs" />
+    <Compile Include="Universe\WorldCore.cs" />
+    <Compile Include="Disk data\XmlManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\ConsoleWindow.resx">
+      <DependentUpon>ConsoleWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

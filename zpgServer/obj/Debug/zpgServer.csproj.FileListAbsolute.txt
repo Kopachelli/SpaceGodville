@@ -1,0 +1,8 @@
+E:\CWork\ZPG\zpgServer\bin\Debug\zpgServer.exe.config
+E:\CWork\ZPG\zpgServer\bin\Debug\zpgServer.exe
+E:\CWork\ZPG\zpgServer\bin\Debug\zpgServer.pdb
+E:\CWork\ZPG\zpgServer\obj\Debug\zpgServer.csprojResolveAssemblyReference.cache
+E:\CWork\ZPG\zpgServer\obj\Debug\zpgServer.exe
+E:\CWork\ZPG\zpgServer\obj\Debug\zpgServer.pdb
+E:\CWork\ZPG\zpgServer\obj\Debug\zpgServer.ConsoleWindow.resources
+E:\CWork\ZPG\zpgServer\obj\Debug\zpgServer.csproj.GenerateResource.Cache

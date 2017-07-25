@@ -1,0 +1,54 @@
+[23:10:24 | MAIN] Thread started
+[23:10:24 | MAIN] Loading strings
+[23:10:24 | MAIN] Loading looters
+[23:10:24 | MAIN] Successfully parsed 11 item(s) in itemsTianara.xml
+[23:10:24 | MAIN] No valid items found in itemsSvillaya.xml
+[23:10:24 | MAIN] Loading destiny
+[23:10:24 | MAIN] Successfully created 39 native event(s)
+[23:10:24 | MAIN] Successfully parsed 3 event(s) in eventsTianara.xml
+[23:10:24 | MAIN] No valid events found in eventsSvillaya.xml
+[23:10:25 | MAIN] Loading planets
+[23:10:25 | MAIN] Loading accounts
+[23:10:25 | MAIN] Successfully loaded 2 account(s).
+[23:10:25 | MAIN] Rolling the dice
+[23:10:25 | MAIN] Creating the universe
+[23:10:25 | MAIN] Generating RSA keys
+[23:10:25 | MAIN] Collecting command line data
+[23:10:25 | MAIN] Initializing web thread
+[23:10:25 | MAIN] Initializing world thread
+[23:10:25 | MAIN] Initializing disk thread
+[23:10:25 | MAIN] Initializing update thread
+[23:10:25 | MAIN] Initializing GUI thread
+[23:10:25 | MAIN] Switching to graphical console
+[23:10:28 | GUI] > boo
+Unknown command
+[23:10:29 | GUI] > qfewrgh5y
+Unknown command
+[23:10:30 | GUI] > help
+Available types:
+- Authorization
+- Destiny
+- Localization
+- Looter
+- Settings
+- Terraformer
+- Universe
+- CmdParser
+[23:10:36 | GUI] > reflection.
+Unknown command
+[23:10:39 | GUI] > reflection
+Unknown command
+[23:10:41 | GUI] > reflection.
+Unknown command
+[23:10:46 | GUI] > #
+Unknown command
+[23:10:53 | GUI] > exit
+
+[23:10:53 | GUI] Graphical console closed
+[23:10:53 | MAIN] Initializing shutdown sequence
+[23:10:53 | MAIN] Shutting down update thread
+[23:10:53 | MAIN] Shutting down disk thread
+[23:10:54 | MAIN] Shutting down world thread
+[23:10:54 | MAIN] Shutting down web thread
+[23:10:55 | MAIN] Shutting down main thread
+[23:10:55 | MAIN] Goodbye

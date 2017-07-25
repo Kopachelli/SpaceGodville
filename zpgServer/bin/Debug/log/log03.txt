@@ -1,0 +1,23 @@
+[23:10:08 | MAIN] Thread started
+[23:10:08 | MAIN] Loading strings
+[23:10:08 | MAIN] Loading looters
+[23:10:08 | MAIN] Successfully parsed 11 item(s) in itemsTianara.xml
+[23:10:08 | MAIN] No valid items found in itemsSvillaya.xml
+[23:10:08 | MAIN] Loading destiny
+[23:10:08 | MAIN] Successfully created 39 native event(s)
+[23:10:08 | MAIN] Successfully parsed 3 event(s) in eventsTianara.xml
+[23:10:08 | MAIN] No valid events found in eventsSvillaya.xml
+[23:10:08 | MAIN] Loading planets
+[23:10:08 | MAIN] Loading accounts
+[23:10:08 | MAIN] Successfully loaded 2 account(s).
+[23:10:08 | MAIN] Rolling the dice
+[23:10:08 | MAIN] Creating the universe
+[23:10:08 | MAIN] Generating RSA keys
+[23:10:08 | MAIN] Collecting command line data
+[23:10:08 | MAIN] Initializing web thread
+[23:10:08 | MAIN] Initializing world thread
+[23:10:09 | MAIN] Initializing disk thread
+[23:10:09 | MAIN] Initializing update thread
+[23:10:09 | MAIN] Initializing GUI thread
+[23:10:09 | MAIN] Switching to graphical console
+[23:10:11 | GUI] > boo

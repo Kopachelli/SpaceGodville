@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<player>
+		<username>Tianara</username>
+		<password>F332E52965B971E1082F28B0CE1C03A849459249</password>
+		<passwordSalt>MO29lOVQq70=</passwordSalt>
+		<loginCounter>36</loginCounter>
+		<startingShipName>Тринити</startingShipName>
+	</player>
+	<player>
+		<username>Svillaya</username>
+		<password>66EA68835C07E4FE1F8123E05FA5AFD8940CD606</password>
+		<passwordSalt>r1cn6Ql1Kyw=</passwordSalt>
+		<loginCounter>1</loginCounter>
+		<startingShipName>Ku-ku</startingShipName>
+	</player>
+</root>
